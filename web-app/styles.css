@@ -1,9 +1,11 @@
-@keyframes redToYellow {
-    from {background-color: black;}
-    to {background-color: yellow;}
+@keyframes yellowToBlack {
+    0% {background-color: black;}
+    25% {background-color: blue;}
+    50% {background-color: green;}
+    100% {background-color: black;}
   }
 h1 {
-    color: blue;
+    color: white;
     font-size: 50px;
     text-align: center;
     position: absolute;
@@ -13,7 +15,7 @@ h1 {
 }
 body{
     background-color: black;
-    animation-name: redToYellow;
+    animation-name: yellowToBlack;
     animation-duration: 20s;
     animation-iteration-count: infinite;
 }
