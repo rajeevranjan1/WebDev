@@ -1,6 +1,6 @@
 var express = require('express');
 var app=express();
-app.use(express.static(__dirname+ '/web-app'));
+//app.use(express.static(__dirname+ '/web-app'));
 
 //Routing
 app.get('/',function(req,res){
