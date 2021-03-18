@@ -1,0 +1,24 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "npm init for the web-app",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeevranjan1/WebDev.git"
+  },
+  "author": "Rajeev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeevranjan1/WebDev/issues"
+  },
+  "homepage": "https://github.com/rajeevranjan1/WebDev#readme"
+}
