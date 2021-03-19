@@ -1,7 +1,7 @@
 var express = require('express');
 var app=express();
 const path=require('path');
-//app.use(express.static(path.join(__dirname,'/web-app')));
+app.use(express.static(path.join(__dirname,'/web-app')));
 var port = process.env.PORT || 3000;
 
 
