@@ -1,7 +1,9 @@
 @keyframes yellowToBlack {
     0% {background-color: black;}
-    25% {background-color: blue;}
-    50% {background-color: green;}
+    20% {background-color: yellow;}
+    40% {background-color: green;}
+    60% {background-color: blue;}
+    80% {background-color: yellow;}
     100% {background-color: black;}
   }
 h1 {
